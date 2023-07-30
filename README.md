@@ -4,19 +4,19 @@ This is a project with algorithm RANSAC (Random Sample Consensus) is a robust st
 
 ## COMPILATION
 
-    ```console
+    ````console
         make
-    ```
+    ````
     
     If you have a problem with library pthread, change the instruction of compilation in the **```Makefile```** file, add the flag:
 
-    ```console
+    ````console
         gcc -Wall -Wextra -o ransac main.c -lpthread
-    ```
+    ````
 
 ## EXECUTION
 
-    ```console
+    ````console
         ./ransac -N <number_of_iterations>
-    ```
+    ````
     
