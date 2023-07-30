@@ -8,7 +8,7 @@ This is a project with algorithm RANSAC (Random Sample Consensus) is a robust st
         make
     ```
     
-    If you have a problem with library pthread, change the instruction of compilation in the Makefile file, add the flag:
+If you have a problem with library pthread, change the instruction of compilation in the Makefile file, add the flag:
 
     ```bash
         gcc -Wall -Wextra -o ransac main.c -lpthread
